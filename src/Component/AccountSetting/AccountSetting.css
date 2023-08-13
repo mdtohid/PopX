@@ -1,0 +1,64 @@
+.accountSetting{
+    padding-bottom: 20px;
+    height: 100vh;
+}
+
+.settingName{
+    background-color: #fff;
+    font: normal normal normal 18px/21px Rubik;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-block: 12px;
+}
+
+.settingProfile{
+    padding-inline: 15px;
+    padding-block: 30px;
+}
+
+.profile{
+    display: flex;
+    align-items: start;
+}
+
+.upload{
+    position: relative;
+    width: 76px;
+    height: 76px;
+    margin-right: 22px;
+}
+
+.showImg{
+    border-radius: 50%;
+}
+
+.uploadInput{
+    position: absolute;
+    width: 21px;
+    height: 23px;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+.uploadInput input[type='file']{
+    position: absolute;
+    transform: scale(2);
+    opacity: 0;
+}
+
+.profileName{
+    font: normal normal medium 15px/19px Rubik;
+    font-weight: 700;
+}
+
+.empty{
+    height: 50vh;
+    border-top: 1px dashed #CBCBCB;
+    border-bottom: 1px dashed #CBCBCB;
+}
+
+
+
+
+

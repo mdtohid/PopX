@@ -1,0 +1,116 @@
+.signIn {
+    padding-top: 40px;
+    margin-inline: auto;
+    height: 100vh;
+    width: fit-content;
+}
+
+.signIn form {
+    margin-top: 33px;
+}
+
+.inputField {
+    position: relative;
+    margin-bottom: 29px;
+}
+
+.inputField input {
+    width: 300px;
+    height: 40px;
+    border-radius: 6px;
+    padding-inline: 17px;
+    border: 1px solid #CBCBCB;
+    background-color: transparent;
+    opacity: 1;
+}
+
+.inputField input::placeholder {
+    color: #CBCBCB;
+}
+
+.labelTypeOne {
+    position: absolute;
+    left: 10px;
+    top: -10px;
+    padding-left: 7px;
+    padding-right: 26px;
+    background-color: #F7F8F9;
+
+    color: #6C25FF;
+    font: normal normal normal 13px/17px Rubik;
+    font-size: 13px;
+    letter-spacing: 0px;
+}
+
+.labelTypeTwo {
+    position: absolute;
+    left: 10px;
+    top: -10px;
+    padding-left: 7px;
+    background-color: #F7F8F9;
+
+    color: #6C25FF;
+    font: normal normal normal 13px/17px Rubik;
+    font-size: 13px;
+    letter-spacing: 0px;
+}
+
+.star {
+    color: #DD4A3D;
+    font-size: medium;
+    font-weight: 600;
+    font: normal normal normal 13px/17px Rubik;
+    letter-spacing: 0px;
+}
+
+.radioInputs {
+    display: flex;
+    margin-top: 10px;
+}
+
+.radioInput {
+    display: flex;
+    align-items: center;
+}
+
+.radioInput input {
+    width: 22px;
+    height: 22px;
+    margin-left: 0px;
+}
+
+.radioInput label {
+    margin-left: 12px;
+    margin-right: 24px;
+}
+
+.submitButton {
+    width: 334px;
+    padding-block: 13.6px;
+    border: 0px;
+    border-radius: 6px;
+    background: #CBCBCB 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: #FFF;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.submitButton:hover {
+    background: #6C25FF 0% 0% no-repeat padding-box;
+    color: #FFF;
+}
+
+
+@media only screen and (min-width: 990px) {
+
+    .signIn .labelTypeOne {
+        font-size: 17px;
+    }
+
+    .signIn .labelTypeTwo {
+        font-size: 17px;
+    }
+}
